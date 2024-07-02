@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- TailwindCSS and DaisyUI CDNs -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.0.9/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    {% include 'inc/navbar.html' %}
+    <div>
+      {% include 'inc/messages.html' %}
+      {% block content %}
+
+      {% endblock %}
+    </div>
+  </body>
+</html>

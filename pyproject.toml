@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "shopfa"
+version = "0.1.0"
+description = ""
+authors = ["Foshati <amirrezafoshati@gmail.com>"]
+license = "none"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.2"
+django = "^5.0.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
